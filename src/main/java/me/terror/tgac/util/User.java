@@ -34,9 +34,9 @@ public class User {
         ArrayList<Long> toRemove = new ArrayList<>();
         int result = 0;
         for (Iterator localIterator = this.hits.iterator(); localIterator.hasNext();){
-            long 1 = ((Long)localIterator.next()).longValue();
+            long i = ((Long)localIterator.next()).longValue();
             if (start - 1 > 1000L){
-                toRemove.add(Long.valueOf(1));
+                toRemove.add(Long.valueOf(i));
             }else {
                 result++;
             }
@@ -58,10 +58,10 @@ public class User {
         ArrayList<Integer> res = new ArrayList<>();
         int result = 0;
         for (Iterator localIterator = this.entities.keySet().iterator(); localIterator.hasNext();) {
-            long 1 = ((Long) localIterator.next()).longValue();
+            long i = ((Long) localIterator.next()).longValue();
             int entityId = ((Integer) this.entities.get(Long.valueOf(1))).intValue();
             if (start - 1 < 1000L) {
-                toRemove.add(Long.valueOf(1));
+                toRemove.add(Long.valueOf(i));
             } else if (!res.contains(Integer.valueOf(entityId))) {
                 result++;
                 res.add(Integer.valueOf(entityId));
