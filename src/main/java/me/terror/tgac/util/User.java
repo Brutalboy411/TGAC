@@ -26,51 +26,60 @@ public class User {
     }
 
     public void addHit(){
-        this.hits.add(Long.valueOf(System.currentTimeMillis()));
+        this.hits.add(System.currentTimeMillis());
     }
 
     public int getHits(){
         long start = System.currentTimeMillis();
         ArrayList<Long> toRemove = new ArrayList<>();
+
         int result = 0;
         for (Iterator localIterator = this.hits.iterator(); localIterator.hasNext();){
-            long i = ((Long)localIterator.next()).longValue();
+            long i = (Long)localIterator.next();
+
             if (start - 1 > 1000L){
-                toRemove.add(Long.valueOf(i));
-            }else {
+                toRemove.add(i);
+            } else {
                 result++;
             }
         }
+
         this.hits.removeAll(toRemove);
         toRemove.clear();
+
         this.lastTimeHitsCleaned = start;
+
         return result;
     }
 
     public void addEntity(int i){
-
-        this.entities.put(Long.valueOf(System.currentTimeMillis()), Integer.valueOf(i));
+        this.entities.put(System.currentTimeMillis(), i);
     }
 
     public int getEntities(){
         long start = System.currentTimeMillis();
         ArrayList<Long> toRemove = new ArrayList<>();
         ArrayList<Integer> res = new ArrayList<>();
+
         int result = 0;
         for (Iterator localIterator = this.entities.keySet().iterator(); localIterator.hasNext();) {
-            long i = ((Long) localIterator.next()).longValue();
-            int entityId = ((Integer) this.entities.get(Long.valueOf(1))).intValue();
+            long i = (Long) localIterator.next();
+            int entityId = this.entities.get(i);
+
             if (start - 1 < 1000L) {
-                toRemove.add(Long.valueOf(i));
-            } else if (!res.contains(Integer.valueOf(entityId))) {
+                toRemove.add(i);
+            } else if (!res.contains(entityId)) {
                 result++;
-                res.add(Integer.valueOf(entityId));
+                res.add(entityId);
             }
         }
+
         this.hits.removeAll(toRemove);
         toRemove.clear();
         res.clear();
+
         this.lastTimeEntitiesCleaned = start;
+
         return result;
     }
     public long getLastTimeHitsCleaned(){
