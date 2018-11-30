@@ -1,6 +1,5 @@
 package me.terror.tgac.checks;
 
-import org.bukkit.Bukkit;
 
 public abstract class Check
 {
@@ -23,8 +22,6 @@ public abstract class Check
         return this.cancelType;
     }
 
-    public void debug(Object message)
-    {
-        Bukkit.broadcastMessage(String.valueOf(message));
-    }
+
+
 }

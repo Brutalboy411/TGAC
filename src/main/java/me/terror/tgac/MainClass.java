@@ -65,4 +65,5 @@ public final class MainClass extends JavaPlugin implements Listener {
     {
         return false;
     }
+
 }

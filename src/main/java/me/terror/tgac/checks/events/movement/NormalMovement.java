@@ -77,6 +77,9 @@ public class NormalMovement
         return PASS;
     }
 
+    private void debug(Boolean valueOf) {
+    }
+
     public int getYModifier(User user)
     {
         if (user.getPlayer().hasPotionEffect(PotionEffectType.JUMP)) {
@@ -89,4 +92,3 @@ public class NormalMovement
         return 0;
     }
 }
-
