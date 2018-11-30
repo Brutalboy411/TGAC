@@ -1,5 +1,7 @@
 package me.terror.tgac;
 
+import me.terror.tgac.checks.CheckResult;
+import me.terror.tgac.checks.CheckType;
 import me.terror.tgac.events.CheckManager;
 import me.terror.tgac.events.JoinLeaveListener;
 import me.terror.tgac.util.User;
@@ -24,10 +26,17 @@ public final class MainClass extends JavaPlugin {
         pm.registerEvents(new JoinLeaveListener(), this);
         pm.registerEvents(new CheckManager(), this);
 
-        new Cleaner().r
+
+    }
+
+    public static void log(User u, CheckResult result){
+        if (DISABLE_CHECKS.contains(result.getType())){
+
+        }
     }
 
     @Override
     public void onDisable() {
+
     }
 }
