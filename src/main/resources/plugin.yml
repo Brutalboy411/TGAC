@@ -1,4 +1,4 @@
-name: Tgac
+name: TGAC
 version: ${project.version}
 main: me.terror.tgac.MainClass
 prefix: [TGAC]

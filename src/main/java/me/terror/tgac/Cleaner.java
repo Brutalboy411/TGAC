@@ -5,8 +5,10 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 public class Cleaner extends BukkitRunnable {
 
-    public void run(){
-        for (User user : TGAC.USERS.values()){
+    public void run()
+    {
+        for (User user : MainClass.USERS.values())
+        {
             user.getHits();
             user.getEntities();
         }

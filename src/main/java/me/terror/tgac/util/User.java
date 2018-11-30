@@ -89,5 +89,5 @@ public class User {
         return this.lastTimeEntitiesCleaned;
     }
 
-
+    //CLASA TERMINATA !!!
 }

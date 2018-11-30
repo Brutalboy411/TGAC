@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c499cec1-23b9-4790-8b06-5b9b5f26e7f5" name="Default Changelist" comment="dsadsa">
+    <list default="true" id="c499cec1-23b9-4790-8b06-5b9b5f26e7f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/CancelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/MoveCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/CheckManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/JoinLeaveListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/HitSpeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/MultiAura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/Reach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/WallHit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/movement/Glide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/movement/NormalMovement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TGAC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TGAC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/terror/tgac/Cleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/Cleaner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/terror/tgac/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/CheckResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/CheckResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/CheckType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/CheckType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/terror/tgac/events/CheckManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/terror/tgac/events/JoinLeaveListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/Distance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/Distance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/MaterialCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/MaterialCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/MovementUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/MovementUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/YMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/YMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +39,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/MainClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/HitSpeed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="391">
+              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/CheckType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/WallHit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/movement/NormalMovement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1052">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/CheckManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-592">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,13 +102,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/util/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -53,18 +125,40 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/Distance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/YMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/MaterialCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/util/MovementUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/events/CheckManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/events/JoinLeaveListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/Cleaner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/events/combat/HitSpeed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/Check.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/CheckResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/MoveCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/MultiAura.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/Reach.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/movement/Glide.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/CancelType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/CheckType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/WallHit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/movement/NormalMovement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/CheckManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/terror/tgac/MainClass.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="803" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="821" />
+    <option name="y" value="1" />
     <option name="width" value="1105" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -72,6 +166,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,11 +200,58 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tgac" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tgac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TGAC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tgac" type="462c0819:PsiDirectoryNode" />
+              <item name="checks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tgac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TGAC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tgac" type="462c0819:PsiDirectoryNode" />
+              <item name="checks" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tgac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TGAC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tgac" type="462c0819:PsiDirectoryNode" />
+              <item name="checks" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="combat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tgac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TGAC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tgac" type="462c0819:PsiDirectoryNode" />
+              <item name="checks" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="movement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tgac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TGAC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,22 +281,43 @@
       <option name="presentableId" value="Default" />
       <updated>1543605115947</updated>
       <workItem from="1543605117300" duration="1103000" />
-      <workItem from="1543606241998" duration="89000" />
+      <workItem from="1543606241998" duration="5559000" />
+      <workItem from="1543612298251" duration="1453000" />
+    </task>
+    <task id="LOCAL-00001" summary="dsadsa">
+      <created>1543606354392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543606354392</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dsadsa">
+      <created>1543607793962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543607793962</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dsadsa">
+      <created>1543608152769</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543608152769</updated>
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1192000" />
+    <option name="totallyTimeSpent" value="4452000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-12" y="10" width="1105" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1130064" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2507177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -167,6 +330,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -180,23 +344,249 @@
     <option name="LAST_COMMIT_MESSAGE" value="dsadsa" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/util/Distance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="696">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/util/YMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding>
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/util/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="673">
+          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/util/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/Cleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/util/MaterialCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/util/MovementUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/MoveCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/CheckResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/Reach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/MultiAura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/CancelType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/movement/Glide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/JoinLeaveListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/HitSpeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/CheckType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/combat/WallHit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/movement/NormalMovement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1052">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/checks/events/CheckManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-592">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/terror/tgac/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
         </state>
       </provider>
     </entry>
