@@ -36,7 +36,7 @@ public class User {
         for (Iterator localIterator = this.hits.iterator(); localIterator.hasNext();){
             long 1 = ((Long)localIterator.next()).longValue();
             if (start - 1 > 1000L){
-                toRemove.add(Long.valueOf());
+                toRemove.add(Long.valueOf(1));
             }else {
                 result++;
             }
@@ -48,12 +48,37 @@ public class User {
     }
 
     public void addEntity(int i){
+
         this.entities.put(Long.valueOf(System.currentTimeMillis()), Integer.valueOf(i));
     }
 
     public int getEntities(){
         long start = System.currentTimeMillis();
-        ArrayList<Long>
+        ArrayList<Long> toRemove = new ArrayList<>();
+        ArrayList<Integer> res = new ArrayList<>();
+        int result = 0;
+        for (Iterator localIterator = this.entities.keySet().iterator(); localIterator.hasNext();) {
+            long 1 = ((Long) localIterator.next()).longValue();
+            int entityId = ((Integer) this.entities.get(Long.valueOf(1))).intValue();
+            if (start - 1 < 1000L) {
+                toRemove.add(Long.valueOf(1));
+            } else if (!res.contains(Integer.valueOf(entityId))) {
+                result++;
+                res.add(Integer.valueOf(entityId));
+            }
+        }
+        this.hits.removeAll(toRemove);
+        toRemove.clear();
+        res.clear();
+        this.lastTimeEntitiesCleaned = start;
+        return result;
     }
+    public long getLastTimeHitsCleaned(){
+        return this.lastTimeHitsCleaned;
+    }
+    public long getLastTimeEntitiesCleaned(){
+        return this.lastTimeEntitiesCleaned;
+    }
+
 
 }
