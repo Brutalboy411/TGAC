@@ -1,0 +1,6 @@
+name: Tgac
+version: ${project.version}
+main: me.terror.tgac.MainClass
+prefix: [TGAC]
+authors: [GamerRO, BrutalBoy]
+description: An Anti-Cheat plugin.
